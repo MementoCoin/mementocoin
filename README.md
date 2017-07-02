@@ -27,3 +27,15 @@ You can anonymously transfer your cryptocoin inheritance. We have no rivals in c
 - What was the biggest obstacle you overcame?
   
   the biggest obstacle was connection between backend and blockchain
+
+
+How to build:
+FRONT-END:
+- Open frontend/README.md and follow instructions.
+
+BACK-END:
+TODO
+
+GETH:
+- Install geth: https://github.com/ethereum/go-ethereum/wiki/geth
+- Run command: geth --dev --rpc --rpcaddr "0.0.0.0" --rpcapi="db,eth,net,web3,personal,miner,web3"
