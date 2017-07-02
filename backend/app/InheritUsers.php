@@ -60,7 +60,7 @@ class InheritUsers extends Model
               InheritBenefits::addBenefit($obj->id, $benefit['wallet'], $benefit['email'], $benefit['part']);
            }
         }
-        return "";
+        return $wallet;
      }
     //отменить пожелание
      public static function deleteWill($wallet, $password)
